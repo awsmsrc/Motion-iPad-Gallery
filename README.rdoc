@@ -1,7 +1,7 @@
 = Motion Ipad Gallery
 
 This is just a simple demonstration of an ipad app utilizing a
-UIPopoverController and compiled xib files.
+UIPopoverController and compiled xib files written with rubymotion.
 
 
 There is currently some strange behaviour when run in the simulator. On first
