@@ -12,9 +12,8 @@ extern "C" {
     void *rb_vm_top_self(void);
     void rb_rb2oc_exc_handler(void);
     void rb_exit(int);
-void MREP_0FAA2124F3F44608971CEA71BE4E4BC0(void *, void *);
-void MREP_10A270C02CF343E4A9DA02293514ECB9(void *, void *);
-void MREP_A6B875C79C0640DBBC7CA997FBBE0464(void *, void *);
+void MREP_BA8010A173DC43F482542522B1FDB79A(void *, void *);
+void MREP_28A2F03733DD40D7AE66814A925649A7(void *, void *);
 }
 int
 main(int argc, char **argv)
@@ -27,9 +26,8 @@ main(int argc, char **argv)
     int retval = 0;
     try {
         void *self = rb_vm_top_self();
-MREP_0FAA2124F3F44608971CEA71BE4E4BC0(self, 0);
-MREP_10A270C02CF343E4A9DA02293514ECB9(self, 0);
-MREP_A6B875C79C0640DBBC7CA997FBBE0464(self, 0);
+MREP_BA8010A173DC43F482542522B1FDB79A(self, 0);
+MREP_28A2F03733DD40D7AE66814A925649A7(self, 0);
         retval = UIApplicationMain(argc, argv, nil, @"AppDelegate");
         rb_exit(retval);
     }
